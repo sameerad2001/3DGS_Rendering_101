@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/*
+
+# macOS
+.DS_Store
+
+# Project outputs
+output/
+input/synthetic_data/
+
+# Generated metrics / videos / debug artifacts
+*.csv
+*.mp4
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+temp/*
