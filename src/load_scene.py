@@ -1,7 +1,7 @@
 import numpy as np
 from plyfile import PlyData
 
-from scene import GaussianModel, Scene
+from src.scene import GaussianModel, Scene
 
 
 def load_scene(file):

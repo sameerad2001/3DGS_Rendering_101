@@ -1,0 +1,14 @@
+{
+    "input_path": "assets/Cloud/scene.ply",
+    "output_path": "output/Cloud/render.png",
+    "camera": {
+        "position": [0.0, 0.0, 0.0],
+        "target": [0.0, 0.0, 0.0],
+        "up": [0.0, 1.0, 0.0],
+        "fov_y": 60.0,
+        "near": 0.01,
+        "far": 100.0,
+        "width": 3840,
+        "height": 2160
+    }
+}

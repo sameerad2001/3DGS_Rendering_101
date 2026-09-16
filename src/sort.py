@@ -26,7 +26,7 @@ def sort(scene):
         np.ones(len(positions), dtype=np.float32),
     ))
 
-    view_positions = positions_homogenous @ view.T
+    view_positions = positions_homogenous @ view_matrix.T
 
     x = view_positions[:, 0]
     y = view_positions[:, 1]
@@ -49,7 +49,6 @@ def sort(scene):
     )
 
     indices = np.nonzero(visible)[0]
-    # indices = indices[np.argsort(depth[indices])[::-1]] # Back to front sorting
-    indices = indices[np.argsort(depth[indices])] # TODO: Not sure if blending will work out too well with this approach
+    indices = indices[np.argsort(depth[indices])[::-1]] # Back to front sorting
 
     return indices.astype(np.uint32)

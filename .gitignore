@@ -19,10 +19,6 @@ env/
 # macOS
 .DS_Store
 
-# Project outputs
-output/
-input/synthetic_data/
-
 # Generated metrics / videos / debug artifacts
 *.csv
 *.mp4
@@ -35,3 +31,7 @@ input/synthetic_data/
 *.temp
 .cache/
 temp/*
+
+# Large scenes
+assets/Venus/*
+assets/Strawberry/*
