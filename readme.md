@@ -1,4 +1,4 @@
-# 3DGS rendering 101
+# 3DGS Rendering 101
 
 This project is for educational use and is not meant to be representative of an optimized 3DGS rendering pipeline.
 
